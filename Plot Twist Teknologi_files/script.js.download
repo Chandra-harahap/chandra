@@ -1,0 +1,4 @@
+const flipBox = document.getElementById("flipBox");
+flipBox.addEventListener("click", () => {
+  flipBox.classList.toggle("flipped");
+});
